@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+
+    <!-- so i have to choose that i use the internal css as i want to remain in the page.. -->
+    <style>
+      #firstpara {
+        color: brown;
+      }
+      /* Element selector... */
+      p {
+        color: red;
+      }
+      /* Id selector */
+      #redelement {
+        color: yellow;
+        border: 2px solid red;
+      }
+      .Human {
+        color: black;
+      }
+      /* Class Selector */
+      .Human {
+        background-color: aqua;
+      }
+      /* now we have to disscuss about the grouping selectors.. */
+      /* now i want to use grouping selector by grouping the footer and the span */
+      /* Grouping selector */
+      footer,
+      span {
+        background-color: aqua;
+      }
+      /* I use the id selector when  i want to point the only one element... 
+      so if i want the same theme on the different items so i make a class and apply the theme 
+      to the class.. 
+      */
+    </style>
+  </head>
+  <body>
+    <h2>CSS Selector</h2>
+    <p id="firstpara">
+      This is a simple paragraph and to demonstrate the CSS selectors...
+    </p>
+    <p id="redelement">
+      This is another simple paragraph and to demonstrate the CSS selectors...
+    </p>
+    <!-- so the red color is ap0plied to all the paragraphs tags -->
+    <div>
+      <p>
+        This is also another simple paragraph in div and to demonstrate the CSS
+        selectors...
+      </p>
+    </div>
+
+    <div>
+      <p class="Human">
+        So here i am on you can voyte me if you want to vote me..
+      </p>
+      <span>This is the span of the class..</span>
+    </div>
+
+    <footer>This is my footer..</footer>
+  </body>
+</html>

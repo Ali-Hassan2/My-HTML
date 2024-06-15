@@ -1,0 +1,544 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+    
+}
+.navbar{
+    height: 80px;
+    background-color: #0f1111;
+    color: white;
+    /*for displaying data on the navbar in left or rigth flex*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 60px;
+    width: 120px;
+    
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 120px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add1{
+    /* size in rem*/
+    color: grey;
+    font-size: 0.95rem;
+    margin-left: 18px ;
+}
+.add2{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+
+    border: 2px solid white;
+
+}
+/* Box search */
+.nav-search{
+    display: flex;
+    width: 500px;
+    background-color: grey;
+    height: 40px;
+    /* For curves */
+    border-radius: 5px;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+
+.search-select{
+    background-color: lightgrey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    width: 60px;
+    text-align: center;
+    border: none;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.searchicon{
+    align-items: center;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: rgb(241, 189, 47);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0f1111;
+
+}
+
+
+
+/* box content */
+.text{
+    font-size: 0.84rem;
+    color: lightgray;
+    border :none;
+    margin-left: 5px;
+}
+.select{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 0.95rem;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* Box  2nd content */
+
+.return{
+    font-size: 0.84rem;
+    color: lightgray;
+    border:none;
+}
+.order{
+    font-size: 0.95rem;
+    color: white
+}
+
+.border{
+    border : 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+/* Cart */
+.cart i{
+
+    font-size: 30px;
+font-weight: 700;
+}
+.cart{
+    font-size: 0.84rem;
+}
+.border{
+
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color:#222f3d;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+.all i{
+    font-size:1.1rem;
+    color: white;
+}
+.all{
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.other{
+    width: 70%;
+    font-size: 0.84rem;
+    color: white;
+    font-weight: 400px;
+
+}
+
+.other p{
+    display: inline;
+    margin-left: 17px;
+}
+.border1{
+    border: 2px solid transparent;
+}
+.border1:hover{
+    border: 2px solid white;
+}
+.border2{
+    border: 2px solid transparent;
+}
+.border2:hover{
+    border: 2px solid white;
+}
+.border3{
+    border: 2px solid transparent;
+}
+.border3:hover{
+    border: 2px solid white;
+}
+.border4{
+    border: 2px solid transparent;
+}
+.border4:hover{
+    border: 2px solid white;
+}
+.border5{
+    border: 2px solid transparent;
+}
+.border5:hover{
+    border: 2px solid white;
+}
+.shop{
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 700px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* Hero section */
+
+.hero-section{
+    background-image: url("2.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.textbox{
+    font-size: 0.9rem;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.textbox a{
+    color: #007185;
+}
+
+
+/* Shop items section */
+
+.shopitem{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    flex-wrap: wrap;
+}
+
+.box{
+margin-top: 12px;
+    height: 340px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    /* For the space inside the box */
+    padding: 20px 0px 15px;
+    
+    
+}
+
+.box1img{
+    height: 260px;
+    margin-top: 7px;
+  
+}
+.boxcontent p{
+    margin-top: 10px;
+    color:#007185 ;
+}
+.boxcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box2img{
+    height: 260px;
+    margin-top: 7px;
+  
+}
+.boxcontent2 p{
+    margin-top: 10px;
+    color:#007185 ;
+}
+.boxcontent2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box3img{
+    height: 260px;
+    margin-top: 7px;
+  
+}
+.boxcontent3 p{
+    margin-top: 10px;
+    color:#007185 ;
+}
+.boxcontent3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box4img{
+    height: 260px;
+    margin-top: 7px;
+  
+}
+.boxcontent4 p{
+    margin-top: 10px;
+    color:#007185 ;
+}
+.boxcontent4{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box5img{
+    height: 260px;
+    margin-top: 7px;
+  
+}
+.boxcontent5 p{
+    margin-top: 10px;
+    color:#007185 ;
+}
+.boxcontent5{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box6img{
+    height: 260px;
+    margin-top: 7px;
+  
+}
+.boxcontent6 p{
+    margin-top: 10px;
+    color:#007185 ;
+}
+.boxcontent6{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box7img{
+    height: 260px;
+    margin-top: 7px;
+  
+}
+.boxcontent7 p{
+    margin-top: 10px;
+    color:#007185 ;
+}
+.boxcontent7{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.box8img{
+    height: 260px;
+    margin-top: 7px;
+  
+}
+.boxcontent8 p{
+    margin-top: 10px;
+    color:#007185 ;
+}
+.boxcontent8{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Footer ppannel */
+
+.footer{
+    margin-top: 10px;
+}
+.footerpanel1{
+
+    
+    height: 40px;
+    background-color: #1e2424;
+    display: flex;
+    color: white;
+    font-size: 0.91rem;
+    justify-content: center;
+    align-items: center;
+}
+.panel2{
+    height: 500px;
+    background-color: #0f1111;
+    display: flex;
+    
+}
+.panel2 p{
+    
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.panel2 a{
+    
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+.margin1{
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.margin2{
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.margin3{
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.margin4{
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.footerpanel3{
+
+    height: 70px;
+    background-color: #1e2424;
+align-items: center;
+display: flex;
+
+
+
+}
+.icons{
+    margin-left: 150px;
+}
+.icons i{
+
+    font-size: 1.6rem;
+    margin-left: 40px;
+     
+    color: white;
+}
+
+/* Logo */
+.igi {
+    background-image: url("amazon_logo.png");
+    margin-left: 190px;
+    height: 60px;
+    width: 60px;
+}
+
+.button1 input{
+    height: 30px;
+    width: 110px;
+    background-color: transparent;
+    border: 2px solid darkgray;
+    border-radius: 6px;
+    color: white;
+    margin-left: 10px;
+}
+.button1 i {
+    margin-left: 15px;
+    font-size: 0.99rem;
+    color: rgb(114, 108, 108);
+}
+
+.button2 button{
+height: 37px;
+width: 110px;
+    margin-left: 25px;
+background-color: transparent;
+color: darkgray;
+border-color: darkgray;
+border-radius: 6px;
+
+}
+.button2 i{
+
+    color: rgb(114, 108, 108);
+    font-size: 0.95rem;
+
+}
+
+
+.button3 button{
+    margin-left: 25px;
+    height: 37.5px;
+    width: 130px;
+    background-color: transparent;
+    border-color:darkgray;
+    border-radius: 6px;
+    color: darkgray;
+}
+.button3 i{
+    color : rgb(114, 108, 108);
+    font-size: 0.95rem;
+}
+
+.panelcopy{
+align-items: center;
+display: flex;
+    height: 30px;
+    background-color: #222f3d;
+    color: darkgray;
+    font-size: 0.80rem;
+    justify-content: center;
+    
+}
+
+.panelcopy a{
+    font-weight: 1000px;
+}
+
+
+
+
+
+

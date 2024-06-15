@@ -1,0 +1,48 @@
+/* 1. CSS basically gives style to the Raw HTML...
+   2. CSS stands for the Cascading style sheets..
+   3. CSS is used to give style to our web pages..
+   4. CSS is used to make the websites responsive..
+   5. HTML is used to structure a website..
+   6. CSS takes the responsibility of the Styling..*/
+
+   /* So now we have to know how to erite CSS so basically the syntax of the CSS is given
+   
+          p { color : blue ; }
+          
+          so the p means that paragraph as all the paragraphs on the web page may be of this 
+          color apply the property...basically the p is the any kind of the selector..
+
+          Here the color is Property..
+
+          And the blue is value of the property ...
+
+          so if there are so many paragraphs and ypou want a particular paragraph so this is may be read
+          later in the course and bss itna smjh ly k kuch tarah ka selector hota or by id b kr skty..
+
+          so there may be the group of the selectors and the syntax is given:::::
+          header , p.intro
+                        {background-color : red;
+                           border- radius : 3px;
+                        }
+
+        -------->> so the ( header,p.intro ) is the group of the selectors and 
+        -------->> and the {*********} whatever in the brackets is the declaration block...
+
+        so basicallty there are many ways of adding CSS
+
+        1. Inline CSS -- (in this way we add the CSS in the tag as <p style = "**"></p>)
+        but there is so many drawbacks of this wasy..
+
+        2. Internal CSS -- (this means that the markup in the header tag is removed and 
+                            and add a new tag the style tag and the CSS in the style tag..)
+
+        So this is better but what if the code is of 1000 of the lines so i want to add and write 
+        CSS in the separate file so i can do this..
+
+        3. External CSS -- (in this way we have to write the CSS in the Separate file as ali.css
+        so i can add in the markup of HTML language...
+        so there are two steps in the External...
+
+        a. Write CSS in the separate file as ali.css..
+        b. Include that CSS file in the file..
+          */

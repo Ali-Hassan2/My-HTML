@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>This is the Form Tutorial....!!!!</h2>
+
+    <!-- so basically the action is the refernce to the backened and the 
+    it is the end point where all the data has been submitted and the backend 
+as may be from the c++ , php , or javascript etc..
+here i will use as the sample as backened.php so this is the syntax of the referncing the point  -->
+
+    <form action="backened.php">
+      <!-- as here i told this to submit my form to the backend.php
+         so basically we can write many mor the form and such as we can use the input tags 
+        as the input this is the tag used for taking inputs from the user...
+    so here i will give the caption to the input as the for exampl the name, Father name and number email and 
+files and many more by following syntax Name:<input type =  "text">-->
+      <!-- basically the label form is for the by clicking on the heading it will go to the filling box -->
+      <label for="name">Name:</label>
+      <div><input type="text" name="myname" id="name" /></div>
+      <!-- so basially as i run i have to see that the name and role are in the same line
+    so for bringing it to the new line there are two choices for me first to use the <br> tag and the other is the 
+using div tag for separately... -->
+      <br />
+      <label for="role">Role:</label>
+      <div><input type="text" name="myrole" id="role" /></div>
+      <br />
+      <!-- here i want  to add the mor the email to the form so for this  -->
+      <div>
+        <!-- So here name is the word by which the form recognizes the tage email in the backend.. -->
+        Email: <input type="email" name="myemail" />
+      </div>
+      <!-- so now i have to submit my form for this use the furtur  -->
+
+      <!-- Now i want to add the date in the page so i use input and tyoe is date -->
+      <br />
+      <div>
+        <!-- so basically the name is show the named at the backend -->
+        Date: <input type="date" name="mydate" />
+      </div>
+      <br />
+      <div>Bonus:<input type="number" name="mybonus" /></div>
+      <!-- Now i will create the checkbox for checking the eleigibilty... -->
+      <br />
+      <label for="check">Are you eligible?</label>
+      <div>
+        <!-- so if you want that your checkbox is always checkes so used checked -->
+
+        <input type="checkbox" name="myeligibilty" id="check" />
+      </div>
+      <!-- Now i will use the radio button to check the Gender... -->
+      <br />
+      <div>
+        Gender: Male <input type="radio" name="mygender" /> Female
+        <input type="radio" name="mygender" />
+        <!-- Here i can use the only on gender this is because i have give the two option the same name my gender so now
+        i will give the third option the other -->
+        other: <input type="radio" name="mygender" />
+      </div>
+      <br />
+      <div>
+        <!-- Now i have to give a box to write something about yourself -->
+        Write about Yourself:<br /><textarea name="My Text" cols="30" rows="10">
+        </textarea>
+      </div>
+      <br />
+      <div>
+        <!-- use of the select tag as select the car type which one you want to take -->
+        <label for="car">Which type of Car you want to have:</label>
+        <select name="mycar" id="car">
+          <!-- now i wll give the options  -->
+          <!-- so if i want that bydefault the calue so i can use the selected -->
+          <option value="tot">Toyota</option>
+          <option value="hon" selected>Honda</option>
+          <option value="swi">Swift</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit Now" />
+      </div>
+      <!-- So i now want to give a option of reset so for this i have to do... -->
+      <br />
+      <div>
+        <input type="reset" vale="Reset Now" />
+      </div>
+    </form>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tables and Lists</title>
+      </head>
+      <body>
+        <!-- // unorfered list will always give you the form of the points and give lists by points.. -->
+        <!-- circle and the square and the disc types... -->
+        <ul type="square">
+          <li>This is the my first unordered lists..</li>
+          <li>
+            <!-- so here i wana add some more the lsits in the page so i can do that -->
+            This is my second unordered list..
+          </li>
+          <li>
+            <ul>
+              <li>
+                So this the my innere surface 1. So this the my innere surface
+                1. So this the my innere surface 1.
+              </li>
+              <li>
+                so this is my the intermediate surface 2. so this is my the
+                intermediate surface 2. so this is my the intermediate surface
+                2.
+              </li>
+              <li>
+                so this is the my outer surface 1. so this is the my outer
+                surface 1. so this is the my outer surface 1.
+              </li>
+            </ul>
+          </li>
+          <li>This is my third unordered list..</li>
+        </ul>
+        <!-- ordered list will always gives you the form of 1 , 2 , 3 and so on and give the lists..
+     and i can also change the type of the lsits  as in roman and other forms..by using the 
+     type = anything else -->
+        <ol type="i">
+          <li>This is my first list..</li>
+          <li>This is my second lsit..</li>
+          <li>This is my third list..</li>
+        </ol>
+
+        <!-- TABLE -->
+        <!-- Table contains two items the first is Head and the second is the Body 
+    heads contain the row headings as such as the Name Roll no and so many other things tobe
+ -->
+        <h2>HTML TABLE</h2>
+        <table>
+          <thead>
+            <!-- I will use the tag tr means that the table row and  -->
+            <tr>
+              <th>Name</th>
+              <th>Employee ID</th>
+              <th>Profession</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Here i will also use the tr tag that means the table rows and used the (td) tag instead of
+the th in the body -->
+            <tr>
+              <td>Ali Hassan</td>
+              <td>22021519-013</td>
+              <td>Programmer and the Web Developer</td>
+            </tr>
+            <tr>
+              <td>Ehtisham Aslam</td>
+              <td>22021519-014</td>
+              <td>Programmer</td>
+            </tr>
+            <tr>
+              <td>Shabbir Jan</td>
+              <td>22021519-113</td>
+              <td>All Minded..</td>
+            </tr>
+          </tbody>
+        </table>
+        <strong><h2 style="border: 2px solid purple">This is me...</h2></strong>
+        <!-- first of all i will write a paragraph  -->
+
+        <!-- <p style ="border: 2px solid black">This is a paragraph</p>
+        <p style = "border: 2px solid black ">This is also a paragraph</p> -->
+
+        <!-- now i will do the same with the above by using a instead of p as 
+    a is a inline elemnt -->
+        <a style="border: 2px solid blue">This is a paragraph..</a>
+        <a style="border: 2px solid red">This is also a paragraph..</a>
+
+        <!-- as i check this the second paragraph is on the new line and i want it is place with the 
+        first line so it is placed at the new line because this is a block element so if i have to 
+    use span instead of the p then it will placed on the with the 1st line -->
+        <!-- no i wi  llgive a border to it -->
+        <span style="border: 2px solid red">This is a span</span>
+        <span style="border: 2px solid blue">This is also a span</span>
+        <!-- yes now it is set this is because the span is a inline element-->
+      </body>
+    </html>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+/* so the selectors in the css are used 
+1. to find the element whose property must be change
+2. Used to target the elements of the html ..
+3. selectors make it easy for us to easily target the single/multiple
+HTML elements in the markup...
+
+p{color : red ;}
+
+p----> selector...sary paragraphs
+color-----> property to change
+red------> is the value to be set
+
+we have to disscuss about the 4 selectors...
+1. CSS element selector..
+2. CSS id selector..
+3. CSS class selector 
+4. CSS grouping selector */
